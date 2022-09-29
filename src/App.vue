@@ -6,7 +6,8 @@
     app
     >
       <v-list-item>
-        <v-list-item-content>
+        <div style="width: 50rem;">
+          <v-list-item-content>
           <v-list-item-title class="text-h6">
             Xena To Do
           </v-list-item-title>
@@ -14,6 +15,8 @@
             Best to do ever
           </v-list-item-subtitle>
         </v-list-item-content>
+        </div>
+        
       </v-list-item>
 
       <v-divider></v-divider>
